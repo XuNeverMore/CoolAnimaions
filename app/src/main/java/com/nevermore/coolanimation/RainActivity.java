@@ -2,16 +2,12 @@ package com.nevermore.coolanimation;
 
 import android.graphics.Color;
 import android.graphics.PointF;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.ArcShape;
-import android.graphics.drawable.shapes.OvalShape;
 import android.graphics.drawable.shapes.RectShape;
 import android.graphics.drawable.shapes.RoundRectShape;
 import android.graphics.drawable.shapes.Shape;
 import android.os.Bundle;
-import android.view.Gravity;
 
 import com.nevermore.coolanimation.widget.rain.ISummoner;
 import com.nevermore.coolanimation.widget.rain.RainView;
@@ -24,7 +20,6 @@ import java.util.List;
 import java.util.Random;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
 public class RainActivity extends AppCompatActivity {
 
